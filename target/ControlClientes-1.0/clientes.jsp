@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/f90d3bf50d.js" crossorigin="anonymous"></script>
 
-        <title>Control de Clientes</title>
+        <title>Control de Arrendatarios</title>
     </head>
+    
+    <!-- patron facade, se simplifica el uso la pagina principal -->
     <body>
         <!--Cabecero-->
         <jsp:include page="/WEB-INF/paginas/comunes/cabecero.jsp"/>

@@ -4,6 +4,7 @@ import dominio.Cliente;
 import java.sql.*;
 import java.util.*;
 
+//se puede hacer una interfaz 
 public class ClienteDaoJDBC {
 
     private static final String SQL_SELECT = "SELECT id_cliente, nombre, apellido, email, telefono, saldo "
